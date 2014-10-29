@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd /root/java_app
+cd /root/Java-Docker
 
-javac ConvertMoneyToDollarBills.java  #update java app name to execute
-java ConvertMoneyToDollarBills
+javac GuessBirthDateUsingConfirmationDialog.java  #update java app name to execute
+java GuessBirthDateUsingConfirmationDialog
