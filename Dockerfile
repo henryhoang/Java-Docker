@@ -6,9 +6,9 @@ RUN apt-get install xauth
 RUN apt-get install xorg openbox
 RUN apt-get install openbox
 
-RUN DISPLAY=localhost:0.0
+RUN setenv DISPLAY :0.0
 
-EXPOSE 80
+#EXPOSE 80
 WORKDIR /root
 ADD . /
 ENTRYPOINT ["/bin/sh", "-c", "/run.sh"]
