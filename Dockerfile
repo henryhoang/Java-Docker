@@ -9,7 +9,7 @@ RUN apt-get install openbox
 RUN setenv DISPLAY :0.0
 
 #EXPOSE 80
-WORKDIR /root
+WORKDIR /
 ADD . /
 ENTRYPOINT ["/bin/sh", "-c", "/run.sh"]
 
