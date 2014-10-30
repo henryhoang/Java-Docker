@@ -2,5 +2,5 @@
 
 cd /  #from local host
 
-javac GuessBirthDateUsingConfirmationDialog.java  #update java app name to execute
-java GuessBirthDateUsingConfirmationDialog
+javac GuessBirthDate.java  #update java app name to execute
+java GuessBirthDate
