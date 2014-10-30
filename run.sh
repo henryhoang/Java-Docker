@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd /  #from local host
+cd /  #from container
 
-javac GuessBirthDate.java  #update java app name to execute
+javac GuessBirthDate.java  
 java GuessBirthDate
